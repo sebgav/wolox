@@ -8,7 +8,9 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/wolox.feature",
         glue = "com.co.certificacion.pruebas.definitions",
-        snippets = SnippetType.CAMELCASE
+        snippets = SnippetType.CAMELCASE,
+        tags = {"@tag5"}
+
 )
 public class TestRunnerAvianca {
 }

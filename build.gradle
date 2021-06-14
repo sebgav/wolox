@@ -28,6 +28,7 @@ dependencies {
     compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.90'
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.16.1'
 
+    compile(group: 'org.json', name: 'json', version: '20190722')
 
     compile group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: '2.0.90'
 
